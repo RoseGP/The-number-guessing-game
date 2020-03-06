@@ -20,10 +20,6 @@ jobs:
   with:
     node-version: '10.x'
     
-    
-    - name: Install Dependencies
-  run: npm install
-
     runs-on: windows-latest
     
     steps:
@@ -52,10 +48,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node_version }}
-        steps:
-- run: npm publish
-  if: github.event == 'push'
-
+       
+       steps:
     - name: npm install, build and test
       run: |
         npm install
