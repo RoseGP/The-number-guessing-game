@@ -1,4 +1,3 @@
-//THIS IS ONLY AN EXAMPLE TO HELP YOU GET STARTED WITH THIS ASSIGNMENT
 
 /****SAMPLE PROGRAM HEADER*******************************************************
 
